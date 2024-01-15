@@ -1,0 +1,17 @@
+{
+    "name": "mikechip/discord-import",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Borys Stelmakh",
+            "email": "mikechip@pm.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "restcord/restcord": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["DiscordServer.php"]
+    }
+}
